@@ -68,7 +68,8 @@ A: The clusters formed using PCA data appear to be more compact and well-defined
 
 ### Data Preview
 
-Before applying any scaling or clustering algorithms, here's a preview of the initial cryptocurrency dataset:<br>
+Before applying any scaling or clustering algorithms, here's a preview of the initial cryptocurrency dataset:
+<br>
 ![Preview of Cryptocurrency DataFrame](images/crypto_df_preview.png)
 This dataframe contains various features of different cryptocurrencies, including price change percentages over different time periods.
 
