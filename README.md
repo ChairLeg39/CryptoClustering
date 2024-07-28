@@ -46,29 +46,29 @@ This project applies K-means clustering to cryptocurrency market data, comparing
 ## Results
 
 ### Optimal k Value (Original Data)
-**Q1: What is the best value for k using the original data?**
+**Q1: What is the best value for k using the original data?**<br>
 A: 4
 
 ### PCA Analysis
-**Q2: What is the total explained variance of the three principal components?**
+**Q2: What is the total explained variance of the three principal components?**<br>
 A: The three principal components together account for about 89.50% of the total variance in the original dataset.
 
 ### Optimal k Value (PCA Data)
-**Q3: What is the best value for k when using the PCA data?**
+**Q3: What is the best value for k when using the PCA data?**<br>
 A: 4
 
-**Q4: Does it differ from the best k value found using the original data?**
+**Q4: Does it differ from the best k value found using the original data?**<br>
 A: No, the optimal number of clusters remains the same whether you are using the original data or the PCA-transformed data.
 
 ### Impact of Dimensionality Reduction
-**Q5: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?**
+**Q5: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?**<br>
 A: The clusters formed using PCA data appear to be more compact and well-defined. This suggests that the PCA transformation has helped to reduce noise and focus on the most significant patterns in the data. The consistency in the optimal k value, between the original dataset and the PCA data, suggests that the essential clustering structure has been preserved.
 
 ## Visualizations
 
 ### Data Preview
 
-Before applying any scaling or clustering algorithms, here's a preview of our initial cryptocurrency dataset:
+Before applying any scaling or clustering algorithms, here's a preview of the initial cryptocurrency dataset:<br>
 ![Preview of Cryptocurrency DataFrame](images/crypto_df_preview.png)
 This dataframe contains various features of different cryptocurrencies, including price change percentages over different time periods.
 
@@ -76,7 +76,7 @@ This dataframe contains various features of different cryptocurrencies, includin
 ![Elbow Curve Comparison](images/elbow_curve_combined.png)
 
 ### Cluster Visualization Comparison
-![Original Data Cluster](images/crypto_predict_original)
-![PCA Data Cluster](images/crypto_predict_pca)
+![Original Data Cluster](images/crypto_predict_original.png)
+![PCA Data Cluster](images/crypto_predict_pca.png)
 
 The last two visualizations demonstrate the differences in clustering results between the original and PCA-transformed data, allowing for a clear comparison of the impact of dimensionality reduction on the cryptocurrency clustering analysis.
